@@ -1,0 +1,26 @@
+.item-1 {
+    background-color: green;
+}
+.item-2{
+    background-color: blue;
+}
+.item-3{
+    background-color: red;
+}
+.item-4{
+    background-color: red;
+}
+.item-5{
+    background-color: blue;
+}
+.item-6{
+    background-color: green;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 300px 100px 300px;
+    grid-template-rows: 100px 300px 100px;
+}
+
+
