@@ -10,19 +10,12 @@
 .item-4{
     background-color: red;
 }
-.item-5{
-    background-color: purple;
-}
-.item-6{
-    background-color: green;
-}
+
 
 .container{
     display: grid;
-    grid-template-columns: 300px 300px 300px;
-    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 200px 200px;
     row-gap: 50px;
     column-gap: 100px;
 }
-
-
