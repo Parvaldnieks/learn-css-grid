@@ -1,0 +1,16 @@
+.item-1 {
+    background-color: green;
+}
+.item-2{
+    background-color: blue;
+}
+.item-3{
+    background-color: red;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 4fr 2fr;
+    grid-template-rows: 600px;
+}
