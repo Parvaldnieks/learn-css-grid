@@ -1,0 +1,39 @@
+.item-1 {
+    background-color: green;
+}
+.item-2{
+    background-color: blue;
+}
+.item-3{
+    background-color: red;
+}
+.item-4{
+    background-color: yellow;
+}
+.item-5{
+    background-color: orange;
+}
+.item-6{
+    background-color: purple;
+}
+.item-7{
+    background-color: pink;
+}
+.item-8{
+    background-color: lightblue;
+}
+.item-9{
+    background-color: lightgreen;
+}
+.item-10{
+    background-color: lime;
+}
+
+.container{
+    width: 600px;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+    row-gap: 25px;
+    column-gap: 25px;
+}
