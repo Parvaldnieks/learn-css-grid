@@ -1,0 +1,18 @@
+:root {
+    font-family: sans-serif;
+  }
+
+
+  .kvadrats{
+      width: 400px;
+      height: 400px;
+      background-color: blue;
+      display: grid;
+      justify-content: center;
+      align-content: center;
+  }
+  .mini-kvadrats{
+      width: 150px;
+      height: 150px;
+      background-color: yellow;
+  }

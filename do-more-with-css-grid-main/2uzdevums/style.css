@@ -1,0 +1,15 @@
+.container {
+  width: 1000px;
+  height: 600px;
+  background-color: pink;
+
+  /* Izvieto, lūdzu, elementus ar klasi item 3 kolonnās,
+  katra 200 px plata un 2 rindās, katra 150px augsta. */
+
+  gap: 20px;
+}
+
+.item {
+  background-color: violet;
+  font-family: sans-serif;
+}
