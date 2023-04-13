@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="index.php" method="post" onsubmit="search(even)">
+        <label for="search">
+            Meklēt:
+            <input type="search" name="vards" id="">
+        </label>
+        <br><br>
+        <div>Meklēt tikai:</div>
+        <label for="name">
+            <input type="checkbox" name="check[]" id="name" value="vārds">
+            Vārds
+        </label>
+        <br>
+        <label for="surname">
+            <input type="checkbox" name="check[]" id="surname" value="uzvārds">
+            Uzvārds
+        </label>
+        <br>
+        <label for="group">
+            <input type="checkbox" name="check[]" id="group" value="grupa">
+            Grupa
+        </label>
+        <br>
+        <label for="livePlace">
+            <input type="checkbox" name="check[]" id="livePlace" value="dzīvesvieta">
+            Dzīvesvieta
+        </label>
+        <br>
+        <label for="country">
+            <input type="checkbox" name="check[]" id="country" value="ceļojumi">
+            Ceļojumi
+        </label>
+        <br>
+        <label for="language">
+            <input type="checkbox" name="check[]" id="language" value="valodas">
+            Valodas
+        </label>
+        <br><br>
+        <input type="submit" value="Search">
+    </form>
+</body>
+</html>

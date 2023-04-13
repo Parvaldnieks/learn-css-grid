@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="Search2.php" method="POST">
+      <label for="search">
+        Meklet:
+        <input type="search" name="search" id="search" />
+      </label>
+
+      <br /><br />
+
+      <div>Meklet tikai:</div>
+
+      <label for="name">
+        <input type="checkbox" name="check[]" id="name" value="Vārds" />
+        Vārds
+      </label>
+
+      <br />
+
+      <label for="surname">
+        <input type="checkbox" name="check[]" id="surname" value="Uzvārds" />
+        Uzvārds
+      </label>
+
+      <br />
+
+      <label for="group">
+        <input type="checkbox" name="check[]" id="group" value="Grupa" />
+        Grupa
+      </label>
+
+      <br />
+
+      <label for="bday">
+        <input
+          type="checkbox"
+          name="check[]"
+          id="bday"
+          value="Dzimšanasdiena"
+        />
+        Dzimšanasdiena
+      </label>
+    </form>
+  </body>
+</html>
